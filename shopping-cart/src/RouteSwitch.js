@@ -81,7 +81,7 @@ const RouteSwitch = () => {
   };
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/odin_Shopping-Cart">
       <Nav cartList={cartList} handleSidebar={handleSidebar} />
       <Cover isSidebarShow={isSidebarShow} handleSidebar={handleSidebar} />
       <Sidebar
